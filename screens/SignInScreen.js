@@ -82,30 +82,30 @@ export default class SignInScreen extends React.Component{
   
   const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      backgroundColor: "#fff"
+        flex: 1,
+        backgroundColor: "#fff"
     },
     logoContainer: {
-      alignItems: "center",
-      marginTop: 100,
-      marginBottom: 100
+        alignItems: "center",
+        marginTop: 100,
+        marginBottom: 100
     },
     form: {
-      padding: 20,
-      width: "100%",
-      marginBottom: 30
+        padding: 20,
+        width: "100%",
+        marginBottom: 30
     },
     button: {
-      marginTop: 20
+        marginTop: 20
     },
     buttonText: {
-      color: "#fff"
+        color: "#fff"
     },
     footer: {
-      alignItems: "center"
+        alignItems: "center"
     },
     empty: {
-        height: 500,
+        height: 100,
         backgroundColor: "#FFF"
-      }
+    }
   });
