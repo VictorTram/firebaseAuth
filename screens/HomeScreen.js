@@ -23,7 +23,7 @@ export default class HomeScreen extends React.Component{
                     name: authenticate.displayName
                 })
             } else{
-                this.props.nabigation.replace("SignIn")
+                this.props.navigation.replace("SignIn")
             }
         })
     }
