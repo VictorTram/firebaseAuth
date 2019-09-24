@@ -9,16 +9,9 @@ import HomeScreen from './screens/HomeScreen'
 import LoadingScreen from './screens/LoadingScreen';
 import SignInScreen from './screens/SignInScreen';
 import SignUpScreen from './screens/SignUpScreen';
+import { SECRET_firebaseConfig } from './config';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDidjO8STT5SZPbfmr-UjPgdj0FDSpiInw",
-  authDomain: "reactbootcamp-f2fa8.firebaseapp.com",
-  databaseURL: "https://reactbootcamp-f2fa8.firebaseio.com",
-  projectId: "reactbootcamp-f2fa8",
-  storageBucket: "",
-  messagingSenderId: "428067339054",
-  appId: "1:428067339054:web:f161d311dc5ef66aeb98bf"
-};
+const firebaseConfig = SECRET_firebaseConfig;
 
 firebase.initializeApp(firebaseConfig);
 
