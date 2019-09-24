@@ -1,5 +1,6 @@
 # firebaseAuth
 React Native FireBase Auth test </br>
 
-Firebase Auth Key has since been deleted.
+ - Previous Firebase Auth Key has since been deleted.</br>
+ - New Key used </br>
 
